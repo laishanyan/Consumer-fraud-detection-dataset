@@ -1,0 +1,61 @@
+This data is processed data. Since the original data contains the name and address of the merchant, in order to avoid conflicts with the merchant, we delete the name and address of the merchant.
+
+Class Description:
+         NormalMerchant: Consumer Reviews of Normal Merchants
+         DoNotMeetHealthStandards: Consumer reviews of fraudulent merchants (selling items that do not meet national hygiene standards)
+         SellingCounterfeitProducts: Consumer Reviews of Fraudulent Merchants (Selling Fake Products)
+         MissingQuantity: Consumer Reviews of Fraudulent Merchants (Insufficient Quantity)
+         UnclearPrice: Consumer Reviews of Fraudulent Merchants (Unclear Prices)
+
+This data is constructed from two parts:
+       The first part consists of public comment data from Meituan and Dianping.
+       The second part is the administrative penalty data published by market regulators. The data sources of this part are as follows:
+	1 Public data of Hainan Provincial Administration for Market Regulation;
+	2 Public data of Shanghai Municipal Administration for Market Regulation;
+	3 Public data of Nanjing Municipal Administration for Market Regulation.
+
+The construction process of our data:
+       We first match the names of the merchants in the administrative penalty cases of the market regulator with the names of the merchants in the first part of the data to find out the merchants with 
+fraudulent behavior, and then manually verify the merchant's address to ensure that we mark in the first part. The merchants are the same as those announced in the second part. Finally, tagging the consumer reviews.
+
+Our findings on the data:
+       According to our research, the data is unbalanced. In addition, we identified more than 300 fraudulent merchants from penalties data published by market regulators, but fewer than 40 merchants with consumer reviews. 
+This is a very bad phenomenon, which shows that only 10% of fraudulent merchants are exposed by our consumers, and what is even worse is that there are still many fraudulent merchants that have not been discovered by market regulators.
+       According to our research, the data has a certain timeliness, because some merchants will be rectified after being discovered and punished by the regulator, so the time interval of our data is half a year. As far as we know, 
+the regulators in more than 40% of the cities in the country will disclose the fraudulent and bad behavior merchants they find, and the data will be updated in real time, so the data can be further expanded.
+
+
+
+
+
+
+
+
+
+==============================Chinese====================================
+本数据是经过处理后的数据，由于原始数据中包含有商家的名称和地址，为了避免引起纠纷，我们删除商家的名称和地址。
+
+类别说明：
+ 正常商家: 正常商家的消费者评论
+ 不符合国家卫生标准: 欺诈商家的消费者评论（售卖不符合国家卫生标准的商品）
+ 售卖伪劣产品: 欺诈商家的消费者评论（售卖伪劣产品）
+ 数量不足: 欺诈商家的消费者评论（数量不足）
+ 价格不明确: 欺诈商家的消费者评论（价格不明确）
+
+本数据由两个部分构建而来
+第一部分是由美团和大众点评中的公开评论数据
+第二部分是市场监管机构公布的行政处罚数据，该部分的数据来源如下：
+ 1 海南省市场监督管理局公开数据
+ 2 上海市市场监督管理局公开数据
+ 3 南京市市场监督管理局公开数据
+
+我们数据的构建过程:
+ 我们首先将市场监管机构的行政处罚案例中的商家名字和第一部分数据的商家的名字对应，寻找出存在欺诈行为的商家，然后通过人工
+对商家的地址进行校验，确保我们在第一部分中标记的商家和第二部分公布的商家一致。最后对消费者评论进行标记。
+
+  根据我们的研究，数据是不平衡的。此外，我们从市场监管机构公开的处罚数据中发现了300多个欺诈商家，但有消费者评论的商家只有不到40个。
+这是一个很不好的现象，这表明了我们消费者曝光的欺诈商家仅有10%，更糟糕的是还有许多的欺诈商家还未被市场监管机构所发现。
+
+根据我们的研究，数据具有一定的时效性，因为有些商家被监管机构发现并处罚后进行了会进行整改，所以我们数据的时间区间为半年。
+据我们所知全国40%以上的城市的监管机构均会公开他们发现的欺诈和不良行为商家，而且数据会实时更新，所以数据还可以进一步扩充。
+
