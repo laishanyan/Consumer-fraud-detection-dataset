@@ -1,11 +1,11 @@
 # Consumer-fraud-detection-dataset
 
 ## News
-2022.06.06：We have released the first version of the data.
+2022.06.06: We have released the first version of the data.
 
-2023.02.03：We have updated the data,we expanded and cleaned the data to provide higher quality data.
+2023.02.03: We have updated the data,we expanded and cleaned the data to provide higher quality data.
 
-2024.02.10：We have continued to expand the data to provide more fraud samples.
+2024.02.10: We have continued to expand the data to provide more fraud samples.
 
 2024.06.05: We have continued to expand the data to provide more fraud samples.
 
