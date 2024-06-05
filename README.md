@@ -9,7 +9,7 @@
 2024.02.10：我们继续扩充了数据，以提供更多的欺诈样本。
 (We have continued to expand the data to provide more fraud samples.)
 
-2024.06.05:我们继续扩充了数据，以提供更多的欺诈样本。
+2024.06.05: 我们继续扩充了数据，以提供更多的欺诈样本。
 (We have continued to expand the data to provide more fraud samples.)
 
 未来我们将发布包含上万个欺诈样本的大规模数据集，敬请期待。
