@@ -30,10 +30,10 @@ NormalMerchant: 4335(2024.02.10) -> 4710(2024.06.05) -> 16710(2024.11.13)
 
 ## Acknowledgements
 
-Junfang Wu  &nbsp&nbsp&nbsp&nbsp Institute of Microelectronics, Chinese Academy of Sciences
+Junfang Wu  &nbsp;&nbsp;&nbsp;&nbsp; Institute of Microelectronics, Chinese Academy of Sciences
 
-Wenxun Wei  &nbsp&nbsp&nbsp&nbsp Fujian University of Technology
+Wenxun Wei  &nbsp;&nbsp;&nbsp;&nbsp; Fujian University of Technology
 
-Zhiwei Ma   &nbsp&nbsp&nbsp&nbsp China Unicom Group Company Ltd., Guangdong Branch
+Zhiwei Ma   &nbsp;&nbsp;&nbsp;&nbsp; China Unicom Group Company Ltd., Guangdong Branch
 
-Zheyun Wu   &nbsp&nbsp&nbsp&nbsp Hainan University
+Zheyun Wu   &nbsp;&nbsp;&nbsp;&nbsp; Hainan University
