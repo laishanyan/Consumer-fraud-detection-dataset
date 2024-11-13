@@ -9,7 +9,7 @@
 
 2024.06.05: We have continued to expand the data to provide more fraud samples.
 
-## 2024.11.13: We've updated the data, we've added 19,350 new entries (containing 7,350 fraudulent samples and 12,000 non-fraudulent samples)
+** 2024.11.13: We've updated the data, we've added 19,350 new entries (containing 7,350 fraudulent samples and 12,000 non-fraudulent samples) **
 
 
 ## The sample numbers of the available dataset are distributed as follows:
